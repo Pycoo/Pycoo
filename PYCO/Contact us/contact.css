@@ -1,0 +1,138 @@
+body {
+    background-color: #FADC00;
+  }
+
+header {
+    display: contents;
+    height: 0px;
+}
+
+.PYCOLOGO{
+    height: 10px;
+    width: 10px;
+    
+}
+
+.PYCOLOGO img{
+    height: 10px;
+
+}
+.testo{
+    font-weight: lighter;
+    margin-left: 75%;
+    margin-top: -7.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.image1{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.testo2{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #fff;
+    margin-right: 52%;
+    margin-left: 3%;
+    margin-top: -50%;
+    font-size: 80px;
+}
+
+.texto1{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: lighter;
+   margin-left: 5%;
+    font-size: 30px;
+
+}
+.texto2{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: lighter;
+   margin-left: 5%;
+    font-size: 25px;
+    margin-top: 8%;
+
+}
+.nav-enlace{
+    display: inline-block;
+    /*background: rgb(227, 193, 11);*/
+    color:#000000;
+    padding: 30px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 100ms ease;
+    box-shadow: 0 0 10px #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+.nav-enlace:hover{
+    background: rgba(227, 193, 11, 0.644);
+    transform: scale(1.1);
+}
+nav{
+     /*background: rgb(251, 243, 13);*/
+    padding: 30px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 900px;
+    margin: 0px auto;
+    margin-top: -5px auto; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-boton{
+    
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px 0;
+    border: 20px solid #fff;
+    display: none;
+}
+
+.Whatsapp{
+    height: 200px;
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+.insta{
+    height: 200px;
+    width: 200px;
+   margin-top: -28%;
+    margin-left: 60%;
+}
+
+
+
+
+
+
+.abajo{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+   margin-top: 13%;
+    font-weight: 100;
+    font-size: 15;
+    margin-left: 20%;
+}
+
+@media (max-width: 500px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 20px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}

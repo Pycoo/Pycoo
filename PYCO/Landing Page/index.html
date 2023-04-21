@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos una empresa dedicada a la instalacion y repracion de equipos electicos domesticos e industriales">
+    <title>PYCO</title>
+    <link rel="stylesheet" href="PYCO.css">
+</head>
+<body>
+   
+    <header> 
+             <nav>
+                <div class="LOGOPYCO">
+                    <a href="index.html">
+                    <img src="./Images/Mi proyecto.png " width="50%" height="auto">
+                    </a>
+                </div> 
+                <button class="nav-boton" onclick="accion()">Menú</button>
+                <a href="index.html" class="nav-enlace desaparece">Home</a>
+                <a href="../Who we are/Whoweare.html" class="nav-enlace desaparece">Services</a>
+                <a href="../Productos/products.html" class="nav-enlace desaparece">Products</a>
+                <a href="../Contact us/contact.html" class="nav-enlace desaparece">Contact</a>
+             </nav>
+             <h1 class="testo">
+                We Repair Anything 
+             </h1>
+    </header>
+    <br>
+    <hr color="black">
+    <div class="image1">
+        <img src="./Images/Elec.jpeg" width="97%" height="auto">
+   </div>
+   <h2 class="testimonials">Testimonials</h2>
+<h2 class="testo2">You need help? Helping you have never been so easy.</h2>
+<h2 class="testo3" >Let us show what our team can do for you and your home </h2>
+
+
+
+    <img class="kalocho"src="./Images/Kalid2.jpeg" >
+
+
+    <img class="pofe" src="./Images/Emilio2.jpeg">
+    <img class="arrobo" src="./Images/arrobo.jpg">
+
+    <h2 class="testi1">Awesome Service, 100% recomended,they came to my house and solve quickly all electric problems in the installation</h2>
+    <h2 class="testi2">They are the best in the industry, I buy them some electronic products, they have awesome quality and arrive the bext day to my door</h2>
+    <h2 class="testi3">Super professional people, they answer all my doubts and finish all the installation of my office. </h2>
+    
+    <a href="../Contact us/contact.html"><button class="contatc_us">Contac Us Now!</button></a>
+    <h2 class="abajo">Av. Moctezuma 2390, Jardines Del Sol, 45050 Zapopan Jal. Mexico +52 (33) 3620 5338 </h2>
+    <script>
+        function accion(){
+            console.log('está funcionando mi boton');
+            var ancla = document.getElementsByClassName('nav-enlace');
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+        </script>
+    
+</body>
+</html>
