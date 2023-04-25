@@ -48,7 +48,43 @@
             <a href="https://www.instagram.com/pyco_electrical/">
                 <img src="./Images/insta.png" width="50%" height="auto" class="insta">
                 </a>
-  
+  <h2 class="Contactanos">Contactanos directamente!</h2>
+     <form id="contact-form">
+        <div class="Nombre">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name"><br>
+        </div>
+        <div class="Mail">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email"><br>
+        </div>  
+        <div class="Asunto">     
+                    <label for="subject">Asunto:</label>
+                    <input type="text" id="subject" name="subject"><br>
+        </div>  
+        <div class="Mensaje">                  
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message"></textarea><br>
+        </div>           
+                    <button class="subboton" type="submit">Enviar</button>
+     </form>
+<h2 class="Calculadora">Calcula rapidamente un costo aproximado</h2>
+     <form id="cost-calculator">
+    <div class="enchufes">
+        <label for="num-outlets">Cantidad de enchufes:</label>
+        <input type="number" id="num-outlets" name="num-outlets"><br>
+    </div>
+    <div class="luces">
+        <label for="num-lights">Cantidad de luces:</label>
+        <input type="number" id="num-lights" name="num-lights"><br>
+    </div>
+        <button class="subboton" type="button" id="calculate-button">Calcular</button><br>
+        <div class="total">
+        <label for="total-cost">Costo total:</label>
+        <input type="text" id="total-cost" name="total-cost" readonly>
+    </div>
+    </form>
+    <script src="Function.js"></script>
     <h2 class="abajo">Av. Moctezuma 2390, Jardines Del Sol, 45050 Zapopan Jal. Mexico +52 (33) 3620 5338 </h2>
 
    
