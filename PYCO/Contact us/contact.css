@@ -6,7 +6,95 @@ header {
     display: contents;
     height: 0px;
 }
+.Contactanos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34px;
+    font-weight: 200;
+    margin-left: 6%; 
+}
+.Nombre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 7%;
+}
 
+.Mail{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 7%;
+}
+.Asunto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 7%;
+}
+.Mensaje{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 7%;
+}
+.Calculadora{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34px;
+    font-weight: 200;
+    margin-left: 6%; 
+}
+.enchufes{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 7%;
+    
+}
+.luces{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 7%;
+    
+}
+.total{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 7%;
+    
+}
+.subboton{
+    display: inline-block;
+    /*background: rgb(227, 193, 11);*/
+    color:#000000;
+    padding: 30px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 100ms ease;
+    box-shadow: 0 0 10px #000000;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.subboton:hover{
+    background: rgb(227, 193, 11, 0.644);
+    transform: scale(1.1);
+}
+.subboton{
+   background: #FADC00;
+   padding: 30px;
+   display: inline-flex;
+   justify-content: space-around;
+   width: 100px;
+   margin: 0px auto;
+   margin-top: -5px auto; 
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-left: 16%;
+  margin-top: 2%;
+   font-size: large;
+}
 .PYCOLOGO{
     height: 10px;
     width: 10px;
