@@ -54,6 +54,17 @@ header {
     margin-top: 8%;
 
 }
+.video{
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.texto3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 39%;
+    margin-top: 13%;
+}
 .nav-enlace{
     display: inline-block;
     /*background: rgb(227, 193, 11);*/
